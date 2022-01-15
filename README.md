@@ -9,8 +9,18 @@ Python 2.7.11
 Psana https://confluence.slac.stanford.edu/display/PSDMInternal/psana+-+Reference+Manual ana-0.17.31  
 Numpy 1.11  
 
-## Description
-
+## Description  
+The data are processed in 4 steps:  
+1. Extracts the raw detector information:  
+    a. X-ray intensity  
+    b. The x-ray diffraction data (mainly for determining x-ray intensity and liquid jet interaction volume)  
+    c. The x-ray area detector (csPad or epix) that records the x-ray emission spectra  
+        - Both raw detector units and calibrate photon number per pixel are recorded per each shot
+    d. XTCAV its a new machine that will take the elecron bunch from the linear accelerator and deflect them upward and record an EM intensity of sorts  
+        - This gives indirect information on the x-ray pulse duration, structure, x-ray photon energy, and magnitude  
+    e. Other machine variables (time of the shot, realtive intensity etc)  
+    
+2.
 
 ## Experimental Setup in Brief
 1. A ~10 femtosecond x-ray pulse would interact with a liquid jet.
