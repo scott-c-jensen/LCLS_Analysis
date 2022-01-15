@@ -27,10 +27,10 @@ The data are processed in 4 steps:
 4. Analyzes the spectra
 
 ## Experimental Setup in Brief
-1. A ~10 femtosecond x-ray pulse would interact with a liquid jet.
-2. The atoms would ionize the atoms (Manganese atoms in our case) and re-emit x-rays through a 3p electron filling the vacancy in the 1s (K-beta emission lines)
-3. The emission line is dispersed through a spectrometer onto a cs-pad detector so that the spatial position determines the x-ray energy
-4. The detector records the energy absorbed during emission (very poor energy resolution and is only used to classify the number of photons absorbed)
-    4a. This prevents electronic noise being read as a photon (x-ray) and allows for multiphoton detection (ie identify how many photons were absorbed before readout)
-    4b. The distribution of the "energy" read by each pixel results in minimally overlaping gaussians to isolate each peak for the 0,1 etc photon cases
-5. The data are stored for each shot which occured on a 120Hz time scale
+1. A ~10 femtosecond x-ray pulse would interact with a liquid jet.  
+2. The atoms would ionize the atoms (Manganese atoms in our case) and re-emit x-rays through a 3p electron filling the vacancy in the 1s (K-beta emission lines).  
+3. The emission line is dispersed through a spectrometer onto a cs-pad detector so that the spatial position determines the x-ray energy.  
+4. The detector records the energy absorbed during emission (very poor energy resolution and is only used to classify the number of photons absorbed).  
+    4a. This prevents electronic noise being read as a photon (x-ray) and allows for multiphoton detection (ie identify how many photons were absorbed before readout).  
+    4b. The distribution of the "energy" read by each pixel results in minimally overlaping gaussians to isolate each peak for the 0,1 etc photon cases.  
+5. The data are stored for each shot which occured on a 120Hz time scale.  
