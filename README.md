@@ -20,7 +20,11 @@ The data are processed in 4 steps:
         - This gives indirect information on the x-ray pulse duration, structure, x-ray photon energy, and magnitude  
     e. Other machine variables (time of the shot, realtive intensity etc)  
     
-2.
+2. Extracts the emission spectra from the detector images per shot (calibrates pixel position to energy, handles bad pixels, and integrates signal)
+
+3. Bins the emission spectra by experimental conditions including: x-ray pulse width, duration, and photon energy.
+
+4. Analyzes the spectra
 
 ## Experimental Setup in Brief
 1. A ~10 femtosecond x-ray pulse would interact with a liquid jet.
