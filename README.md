@@ -14,10 +14,8 @@ The data are processed in 4 steps:
 1. Extracts the raw detector information:
    a. X-ray intensity  
    b. The x-ray diffraction data (mainly for determining x-ray intensity and liquid jet interaction volume)  
-   c. The x-ray area detector (csPad or epix) that records the x-ray emission spectra  
-      - Both raw detector units and calibrate photon number per pixel are recorded per each shot  
-   d. XTCAV its a new machine that will take the elecron bunch from the linear accelerator and deflect them upward and record an EM intensity of sorts  
-      - This gives indirect information on the x-ray pulse duration, structure, x-ray photon energy, and magnitude  
+   c. The x-ray area detector (csPad or epix) that records the x-ray emission spectra (Both raw ADU counts and photon counts) 
+   d. XTCAV which gives indirect information on the x-ray pulse duration, structure, x-ray photon energy, and magnitude  
    e. Other machine variables (time of the shot, realtive intensity etc)  
     
 2. Extracts the emission spectra from the detector images per shot (calibrates pixel position to energy, handles bad pixels, and integrates signal)
@@ -31,6 +29,6 @@ The data are processed in 4 steps:
 2. The atoms would ionize the atoms (Manganese atoms in our case) and re-emit x-rays through a 3p electron filling the vacancy in the 1s (K-beta emission lines).  
 3. The emission line is dispersed through a spectrometer onto a cs-pad detector so that the spatial position determines the x-ray energy.  
 4. The detector records the energy absorbed during emission (very poor energy resolution and is only used to classify the number of photons absorbed).  
-    4a. This prevents electronic noise being read as a photon (x-ray) and allows for multiphoton detection (ie identify how many photons were absorbed before readout).  
-    4b. The distribution of the "energy" read by each pixel results in minimally overlaping gaussians to isolate each peak for the 0,1 etc photon cases.  
+   4a. This prevents electronic noise being read as a photon (x-ray) and allows for multiphoton detection (ie identify how many photons were absorbed before readout).  
+   4b. The distribution of the "energy" read by each pixel results in minimally overlaping gaussians to isolate each peak for the 0,1 etc photon cases.  
 5. The data are stored for each shot which occured on a 120Hz time scale.  
