@@ -26,7 +26,7 @@ The data are processed in 4 steps:
 
 ## Experimental Setup in Brief
 1. A ~10 femtosecond x-ray pulse would interact with a liquid jet.  
-2. The atoms would ionize the atoms (Manganese atoms in our case) and re-emit x-rays through a 3p electron filling the vacancy in the 1s (K-beta emission lines).  
+2. The atoms would ionize the atoms and re-emit x-rays from Manganese atoms via 3p to 1s electron transition (K-beta emission lines).  
 3. The emission line is dispersed through a spectrometer onto a cs-pad detector so that the spatial position determines the x-ray energy.  
 4. The detector records the emission spectrum from x-ray liquid jet interaction.   
 5. The data are stored for each shot which occured on a 120Hz time scale.  
