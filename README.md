@@ -12,7 +12,7 @@ Numpy 1.11
 ## Description  
 The data are processed in 4 steps:  
 1. Extracts the raw detector information:  
-<ol type="a">
+<ol type="b">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
