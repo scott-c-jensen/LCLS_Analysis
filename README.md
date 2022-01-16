@@ -12,18 +12,13 @@ Numpy 1.11
 ## Description  
 The data are processed in 4 steps:  
 1. Extracts the raw detector information:  
-<ol type="b">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-    a. X-ray intensity  
-    b. The x-ray diffraction data (mainly for determining x-ray intensity and liquid jet interaction volume)  
-    c. The x-ray area detector (csPad or epix) that records the x-ray emission spectra  
+       - X-ray intensity  
+       - The x-ray diffraction data (mainly for determining x-ray intensity and liquid jet interaction volume)  
+       - The x-ray area detector (csPad or epix) that records the x-ray emission spectra  
           - Both raw detector units and calibrate photon number per pixel are recorded per each shot
-    d. XTCAV its a new machine that will take the elecron bunch from the linear accelerator and deflect them upward and record an EM intensity of sorts  
+       - XTCAV its a new machine that will take the elecron bunch from the linear accelerator and deflect them upward and record an EM intensity of sorts  
           - This gives indirect information on the x-ray pulse duration, structure, x-ray photon energy, and magnitude  
-    e. Other machine variables (time of the shot, realtive intensity etc)  
+       - Other machine variables (time of the shot, realtive intensity etc)  
     
 2. Extracts the emission spectra from the detector images per shot (calibrates pixel position to energy, handles bad pixels, and integrates signal)
 
