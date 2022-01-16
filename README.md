@@ -15,7 +15,7 @@ The data are processed in 4 steps:
        - X-ray intensity  
        - The x-ray diffraction data (mainly for determining x-ray intensity and liquid jet interaction volume)  
        - The x-ray area detector (csPad or epix) that records the x-ray emission spectra  
-         - Both raw detector units and calibrate photon number per pixel are recorded per each shot
+              - Both raw detector units and calibrate photon number per pixel are recorded per each shot  
        - XTCAV its a new machine that will take the elecron bunch from the linear accelerator and deflect them upward and record an EM intensity of sorts  
          - This gives indirect information on the x-ray pulse duration, structure, x-ray photon energy, and magnitude  
        - Other machine variables (time of the shot, realtive intensity etc)  
