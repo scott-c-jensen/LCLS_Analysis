@@ -18,7 +18,7 @@ The data are processed in 4 steps:
    - XTCAV which gives indirect information on the x-ray pulse duration, structure, x-ray photon energy, and magnitude  
    - Other machine variables (time of the shot, realtive intensity etc)  
     
-2. Extracts the emission spectra from the detector images per shot (calibrates pixel position to energy, handles bad pixels, and integrates signal)
+2. Extracts the emission spectra from the detector images (Calibrating, handling bad pixels, and integrating signal)
 
 3. Bins the emission spectra by experimental conditions including: x-ray pulse width, duration, and photon energy.
 
