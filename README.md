@@ -12,6 +12,11 @@ Numpy 1.11
 ## Description  
 The data are processed in 4 steps:  
 1. Extracts the raw detector information:  
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
     a. X-ray intensity  
     b. The x-ray diffraction data (mainly for determining x-ray intensity and liquid jet interaction volume)  
     c. The x-ray area detector (csPad or epix) that records the x-ray emission spectra  
