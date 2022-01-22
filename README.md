@@ -2,7 +2,7 @@
 Data analysis for X-ray emission spectroscopy at LCLS in 2016.  
 Runs on LCLS high performance computing clusters.  
 See https://pubs.acs.org/doi/10.1021/acs.jpclett.8b03595 for more information.  
-Note: This is not be the full final codebase for the analysis in the paper above, but the code for analyzing the data to generate the graphs.  
+Note: This is not the full final codebase for the analysis in the paper above, but stictly the code for analyzing the LCLS data and not the sequential ionization models.  
   
 ## Requirements:
 Python 2.7.11  
